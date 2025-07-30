@@ -10,7 +10,7 @@ function App() {
     e.preventDefault();
     // Simple validation example
     if (email === 'admin@example.com' && password === 'password123') {
-      setMessage('Login successful!');
+      setMessage('signin successful!');
     } else {
       setMessage('Invalid credentials.');
     }
@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="login-container">
-      <h1>Login Page</h1>
+      <h1>sign Page</h1>
       <form onSubmit={handleLogin}>
         <div className="form-group">
           <label>Email:</label>
