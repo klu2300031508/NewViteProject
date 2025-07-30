@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="login-container">
-      <h1>sign Page</h1>
+      <h1>Sign Page</h1>
       <form onSubmit={handleLogin}>
         <div className="form-group">
           <label>Email:</label>
