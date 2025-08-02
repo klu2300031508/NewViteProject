@@ -1,9 +1,21 @@
-.container {
+/* Make entire page yellow */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
   background-color: yellow;
-  padding: 50px;
-  text-align: center;
 }
 
+/* Center content */
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Text styles */
 .red-text {
   color: red;
 }
