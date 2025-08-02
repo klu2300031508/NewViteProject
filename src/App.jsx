@@ -19,7 +19,7 @@ function App() {
     <div className="page-container">
       {/* Header */}
       <header className="header">
-        <h2>Ganesh's Portal</h2>
+        <h2>Login Portal</h2>
         <nav>
           <a href="#login">Login</a>
           <a href="#about">About</a>
@@ -72,7 +72,7 @@ function App() {
 
       {/* Footer */}
       <footer className="footer">
-        <p>&copy; 2025 Ganesh's Portal. All rights reserved.</p>
+        <p>&copy; 2025 Login Portal. All rights reserved.</p>
       </footer>
     </div>
   );
